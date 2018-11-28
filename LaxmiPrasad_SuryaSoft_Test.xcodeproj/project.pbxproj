@@ -8,22 +8,50 @@
 
 /* Begin PBXBuildFile section */
 		97F2EC9421AD8285005CD452 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2EC9321AD8285005CD452 /* AppDelegate.swift */; };
-		97F2EC9621AD8285005CD452 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2EC9521AD8285005CD452 /* ViewController.swift */; };
-		97F2EC9921AD8285005CD452 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F2EC9721AD8285005CD452 /* Main.storyboard */; };
 		97F2EC9C21AD8285005CD452 /* LaxmiPrasad_SuryaSoft_Test.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 97F2EC9A21AD8285005CD452 /* LaxmiPrasad_SuryaSoft_Test.xcdatamodeld */; };
 		97F2EC9E21AD8287005CD452 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 97F2EC9D21AD8287005CD452 /* Assets.xcassets */; };
 		97F2ECA121AD8287005CD452 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F2EC9F21AD8287005CD452 /* LaunchScreen.storyboard */; };
+		97F2ECBB21AD8A5C005CD452 /* UserListLocalDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECAE21AD8A5C005CD452 /* UserListLocalDataManager.swift */; };
+		97F2ECBC21AD8A5C005CD452 /* UserListRemoteDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECB021AD8A5C005CD452 /* UserListRemoteDataManager.swift */; };
+		97F2ECBD21AD8A5C005CD452 /* UserListPrsenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECB221AD8A5C005CD452 /* UserListPrsenter.swift */; };
+		97F2ECBE21AD8A5C005CD452 /* UserListWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECB421AD8A5C005CD452 /* UserListWireFrame.swift */; };
+		97F2ECBF21AD8A5C005CD452 /* UserListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECB621AD8A5C005CD452 /* UserListView.swift */; };
+		97F2ECC021AD8A5C005CD452 /* UserListProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECB821AD8A5C005CD452 /* UserListProtocol.swift */; };
+		97F2ECC121AD8A5C005CD452 /* UserListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECBA21AD8A5C005CD452 /* UserListInteractor.swift */; };
+		97F2ECC321AD8E23005CD452 /* UserList.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 97F2ECC221AD8E23005CD452 /* UserList.storyboard */; };
+		97F2ECC621ADA268005CD452 /* AleartController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECC521ADA268005CD452 /* AleartController.swift */; };
+		97F2ECC821ADA43D005CD452 /* Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECC721ADA43D005CD452 /* Utility.swift */; };
+		97F2ECCA21ADA9A0005CD452 /* RootWireFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECC921ADA9A0005CD452 /* RootWireFrame.swift */; };
+		97F2ECCC21ADABB7005CD452 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECCB21ADABB7005CD452 /* Reachability.swift */; };
+		97F2ECCF21ADB0D6005CD452 /* UserListResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECCE21ADB0D6005CD452 /* UserListResponse.swift */; };
+		97F2ECD221ADB895005CD452 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECD121ADB895005CD452 /* UserTableViewCell.swift */; };
+		97F2ECD521ADC1CF005CD452 /* BAManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECD421ADC1CF005CD452 /* BAManagedObject.swift */; };
+		97F2ECD721ADC258005CD452 /* UserDataHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F2ECD621ADC258005CD452 /* UserDataHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		97F2EC9021AD8285005CD452 /* LaxmiPrasad_SuryaSoft_Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LaxmiPrasad_SuryaSoft_Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97F2EC9321AD8285005CD452 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		97F2EC9521AD8285005CD452 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		97F2EC9821AD8285005CD452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		97F2EC9B21AD8285005CD452 /* LaxmiPrasad_SuryaSoft_Test.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = LaxmiPrasad_SuryaSoft_Test.xcdatamodel; sourceTree = "<group>"; };
 		97F2EC9D21AD8287005CD452 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		97F2ECA021AD8287005CD452 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		97F2ECA221AD8287005CD452 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		97F2ECAE21AD8A5C005CD452 /* UserListLocalDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListLocalDataManager.swift; sourceTree = "<group>"; };
+		97F2ECB021AD8A5C005CD452 /* UserListRemoteDataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListRemoteDataManager.swift; sourceTree = "<group>"; };
+		97F2ECB221AD8A5C005CD452 /* UserListPrsenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListPrsenter.swift; sourceTree = "<group>"; };
+		97F2ECB421AD8A5C005CD452 /* UserListWireFrame.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListWireFrame.swift; sourceTree = "<group>"; };
+		97F2ECB621AD8A5C005CD452 /* UserListView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListView.swift; sourceTree = "<group>"; };
+		97F2ECB821AD8A5C005CD452 /* UserListProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListProtocol.swift; sourceTree = "<group>"; };
+		97F2ECBA21AD8A5C005CD452 /* UserListInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserListInteractor.swift; sourceTree = "<group>"; };
+		97F2ECC221AD8E23005CD452 /* UserList.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = UserList.storyboard; sourceTree = "<group>"; };
+		97F2ECC521ADA268005CD452 /* AleartController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleartController.swift; sourceTree = "<group>"; };
+		97F2ECC721ADA43D005CD452 /* Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utility.swift; sourceTree = "<group>"; };
+		97F2ECC921ADA9A0005CD452 /* RootWireFrame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootWireFrame.swift; sourceTree = "<group>"; };
+		97F2ECCB21ADABB7005CD452 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		97F2ECCE21ADB0D6005CD452 /* UserListResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserListResponse.swift; sourceTree = "<group>"; };
+		97F2ECD121ADB895005CD452 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		97F2ECD421ADC1CF005CD452 /* BAManagedObject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BAManagedObject.swift; sourceTree = "<group>"; };
+		97F2ECD621ADC258005CD452 /* UserDataHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDataHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +84,142 @@
 		97F2EC9221AD8285005CD452 /* LaxmiPrasad_SuryaSoft_Test */ = {
 			isa = PBXGroup;
 			children = (
+				97F2ECC421ADA22E005CD452 /* Common */,
+				97F2ECAA21AD8A5C005CD452 /* Classes */,
 				97F2EC9321AD8285005CD452 /* AppDelegate.swift */,
-				97F2EC9521AD8285005CD452 /* ViewController.swift */,
-				97F2EC9721AD8285005CD452 /* Main.storyboard */,
 				97F2EC9D21AD8287005CD452 /* Assets.xcassets */,
 				97F2EC9F21AD8287005CD452 /* LaunchScreen.storyboard */,
 				97F2ECA221AD8287005CD452 /* Info.plist */,
 				97F2EC9A21AD8285005CD452 /* LaxmiPrasad_SuryaSoft_Test.xcdatamodeld */,
 			);
 			path = LaxmiPrasad_SuryaSoft_Test;
+			sourceTree = "<group>";
+		};
+		97F2ECAA21AD8A5C005CD452 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECAB21AD8A5C005CD452 /* Modules */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		97F2ECAB21AD8A5C005CD452 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECAC21AD8A5C005CD452 /* DataManager */,
+				97F2ECB921AD8A5C005CD452 /* Interactor */,
+				97F2ECB121AD8A5C005CD452 /* Presenter */,
+				97F2ECB521AD8A5C005CD452 /* View */,
+				97F2ECB321AD8A5C005CD452 /* WireFrame */,
+				97F2ECB721AD8A5C005CD452 /* Protocols */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		97F2ECAC21AD8A5C005CD452 /* DataManager */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECAD21AD8A5C005CD452 /* Local */,
+				97F2ECAF21AD8A5C005CD452 /* API */,
+			);
+			path = DataManager;
+			sourceTree = "<group>";
+		};
+		97F2ECAD21AD8A5C005CD452 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECAE21AD8A5C005CD452 /* UserListLocalDataManager.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		97F2ECAF21AD8A5C005CD452 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECB021AD8A5C005CD452 /* UserListRemoteDataManager.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		97F2ECB121AD8A5C005CD452 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECB221AD8A5C005CD452 /* UserListPrsenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		97F2ECB321AD8A5C005CD452 /* WireFrame */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECB421AD8A5C005CD452 /* UserListWireFrame.swift */,
+			);
+			path = WireFrame;
+			sourceTree = "<group>";
+		};
+		97F2ECB521AD8A5C005CD452 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECD021ADB87F005CD452 /* TableviewCell */,
+				97F2ECB621AD8A5C005CD452 /* UserListView.swift */,
+				97F2ECC221AD8E23005CD452 /* UserList.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		97F2ECB721AD8A5C005CD452 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECB821AD8A5C005CD452 /* UserListProtocol.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		97F2ECB921AD8A5C005CD452 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECBA21AD8A5C005CD452 /* UserListInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		97F2ECC421ADA22E005CD452 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECD321ADC1B5005CD452 /* Entity */,
+				97F2ECCD21ADB0CA005CD452 /* Model */,
+				97F2ECC521ADA268005CD452 /* AleartController.swift */,
+				97F2ECC721ADA43D005CD452 /* Utility.swift */,
+				97F2ECC921ADA9A0005CD452 /* RootWireFrame.swift */,
+				97F2ECCB21ADABB7005CD452 /* Reachability.swift */,
+			);
+			name = Common;
+			path = Classes/Common;
+			sourceTree = "<group>";
+		};
+		97F2ECCD21ADB0CA005CD452 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECCE21ADB0D6005CD452 /* UserListResponse.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		97F2ECD021ADB87F005CD452 /* TableviewCell */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECD121ADB895005CD452 /* UserTableViewCell.swift */,
+			);
+			path = TableviewCell;
+			sourceTree = "<group>";
+		};
+		97F2ECD321ADC1B5005CD452 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				97F2ECD421ADC1CF005CD452 /* BAManagedObject.swift */,
+				97F2ECD621ADC258005CD452 /* UserDataHandler.swift */,
+			);
+			path = Entity;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,8 +281,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				97F2ECA121AD8287005CD452 /* LaunchScreen.storyboard in Resources */,
+				97F2ECC321AD8E23005CD452 /* UserList.storyboard in Resources */,
 				97F2EC9E21AD8287005CD452 /* Assets.xcassets in Resources */,
-				97F2EC9921AD8285005CD452 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +293,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97F2ECBF21AD8A5C005CD452 /* UserListView.swift in Sources */,
 				97F2EC9C21AD8285005CD452 /* LaxmiPrasad_SuryaSoft_Test.xcdatamodeld in Sources */,
-				97F2EC9621AD8285005CD452 /* ViewController.swift in Sources */,
+				97F2ECC121AD8A5C005CD452 /* UserListInteractor.swift in Sources */,
+				97F2ECC821ADA43D005CD452 /* Utility.swift in Sources */,
+				97F2ECD721ADC258005CD452 /* UserDataHandler.swift in Sources */,
+				97F2ECD221ADB895005CD452 /* UserTableViewCell.swift in Sources */,
+				97F2ECCA21ADA9A0005CD452 /* RootWireFrame.swift in Sources */,
+				97F2ECC021AD8A5C005CD452 /* UserListProtocol.swift in Sources */,
+				97F2ECD521ADC1CF005CD452 /* BAManagedObject.swift in Sources */,
+				97F2ECBC21AD8A5C005CD452 /* UserListRemoteDataManager.swift in Sources */,
+				97F2ECCF21ADB0D6005CD452 /* UserListResponse.swift in Sources */,
+				97F2ECBD21AD8A5C005CD452 /* UserListPrsenter.swift in Sources */,
+				97F2ECBE21AD8A5C005CD452 /* UserListWireFrame.swift in Sources */,
+				97F2ECBB21AD8A5C005CD452 /* UserListLocalDataManager.swift in Sources */,
+				97F2ECC621ADA268005CD452 /* AleartController.swift in Sources */,
 				97F2EC9421AD8285005CD452 /* AppDelegate.swift in Sources */,
+				97F2ECCC21ADABB7005CD452 /* Reachability.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		97F2EC9721AD8285005CD452 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				97F2EC9821AD8285005CD452 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		97F2EC9F21AD8287005CD452 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +449,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LaxmiPrasad_SuryaSoft_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -305,6 +467,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = LaxmiPrasad_SuryaSoft_Test/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
